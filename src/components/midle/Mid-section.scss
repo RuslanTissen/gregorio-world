@@ -1,0 +1,59 @@
+.section{
+	@media (max-width:1200px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+			.section-text{
+				padding: 15px;
+				height: fit-content;
+			}
+			.img{
+				width: 100%;
+				max-height: 500px;
+				object-fit: cover;
+			}
+	}
+		
+
+			@media (min-width: 1200px) {
+			max-width: 2000px;
+			max-height: 500px;
+			display: flex;
+			align-items: center;
+			margin: 70px auto;
+			.section-text{
+				max-width: 60%;
+				max-height: inherit;
+				font-size: 1.5em;
+				padding: 0 4em 0 1em;
+				font-family: 'Montserrat', sans-serif;
+				.title{
+					font-size: 150%;
+				}
+				.text{
+					max-height: 250px;
+					overflow: hidden;
+				}
+			}
+			.img{
+			width: 40%;
+			max-height:500px;
+			object-fit: contain;
+			}
+		}
+}
+#personal{
+	.section{
+		img{
+			width: 50%;
+			object-position: top;
+		}
+	}
+}
+#detalles{
+	.section{
+		img{
+			width: 50%;
+		}
+	}
+}

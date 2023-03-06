@@ -1,0 +1,22 @@
+.picture{
+	.picture-container{
+		max-height: 50vh;
+		img{
+			width: 100%;
+			max-height: inherit;
+			object-fit: cover;
+		}
+	}
+	.moto{
+		background-color:rgb(84,84,84);
+		padding: 15px 0;
+			h1{
+				max-width: 500px;
+				margin: 0 auto;
+				padding: 20px 0;
+				text-align: center;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+			}
+	}
+}
