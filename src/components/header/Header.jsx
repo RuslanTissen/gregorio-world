@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Header.scss'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
-// import logo from "../../images/logo-home.png"
 import { AiOutlineHome } from 'react-icons/ai'
 
 function Header() {

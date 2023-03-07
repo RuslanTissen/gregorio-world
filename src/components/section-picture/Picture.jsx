@@ -1,6 +1,6 @@
 import React from "react"
 import './Picture.scss'
-import home from "../../images/house.png"
+import home from "../../images/photo-1.png"
 
 export default function Pictuer() {
 	return (
