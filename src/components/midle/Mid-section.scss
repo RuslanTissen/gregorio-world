@@ -13,7 +13,6 @@
 				object-fit: cover;
 			}
 	}
-		
 
 			@media (min-width: 1200px) {
 			max-width: 2000px;
@@ -41,19 +40,4 @@
 			object-fit: contain;
 			}
 		}
-}
-#personal{
-	.section{
-		img{
-			width: 50%;
-			object-position: top;
-		}
-	}
-}
-#detalles{
-	.section{
-		img{
-			width: 50%;
-		}
-	}
 }

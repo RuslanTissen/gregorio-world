@@ -6,7 +6,7 @@ function MidSection(props) {
 
 	return (
 		<div className="section">
-		<img className="img" src={image} alt="image" />
+			<img className="img" src={image} alt="image" />
 			<div className="section-text">
 				<div className="title">{title} </div>
 				<div className="text">{text}</div>
