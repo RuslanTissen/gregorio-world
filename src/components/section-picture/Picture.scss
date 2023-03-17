@@ -10,14 +10,20 @@
 	}
 	.moto{
 		background-color:rgb(84,84,84);
-		padding: 15px 0;
+		padding: 15px 0 30px;
 			h1{
-				max-width: 500px;
-				margin: 0 auto;
-				padding: 20px 0;
-				text-align: center;
+				max-width: 700px;
+				margin: 1% auto;
+				padding: 20px 0 0 40px;
+				text-align: left;
 				color: white;
 				font-family: 'Montserrat', sans-serif;
 			}
+	}
+	@media (min-width:1200px) {
+		h1{
+			font-size: 2rem;
+		}
+
 	}
 }

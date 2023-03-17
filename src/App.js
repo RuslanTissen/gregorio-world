@@ -21,8 +21,9 @@ function App() {
 			<div id={'alq'} >
 				<MidSection
 					image={photo2}
-					title={"Nuestro lema:"}
-					text={"TEXT......"} />
+					// title={"Nuestro lema:"}
+					text={"Nuestro personal tiene muchos años de experiencia. Y seguimos mejorando tanto los métodos de limpieza como los medios para mejorar el servicio."}
+				/>
 			</div>
 			<div id={'detalles'} >
 				<MidSection
@@ -34,7 +35,7 @@ function App() {
 				<MidSection
 					image={photo4}
 					text={"TEXT ...."}
-					a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491145579810"><BsWhatsapp style={{margin:"5px 0", width:"2em", height:"2em", color:"rgb(0,168,132)"}}/> </a>} />
+					a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491145579810"><BsWhatsapp style={{ margin: "5px 0", width: "2em", height: "2em", color: "rgb(0,168,132)" }} /> </a>} />
 			</div>
 			<div id={"personal"}>
 				<MidSection
