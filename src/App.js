@@ -3,7 +3,6 @@ import Header from './components/header/Header.jsx';
 import MidSection from './components/midle/Mid-section';
 import Pictuer from './components/section-picture/Picture';
 import Footer from './components/footer/Footer';
-import { LoremIpsum } from 'react-lorem-ipsum';
 import photo2 from "./images/photo-2.png"
 import photo3 from "./images/photo-3.png"
 import photo4 from "./images/photo-4.png"
@@ -28,8 +27,8 @@ function App() {
 			<div id={'detalles'} >
 				<MidSection
 					image={photo3}
-					title={"Open Time"}
-					text={"...."} />
+					// title={"Open Time"}
+					text={"Utilizamos solo herramientas y equipos profesionales. Productos a partir de materias primas naturales. No causa alergias, seguro para niños y animales."} />
 			</div>
 			<div id={'contacto'}>
 				<MidSection

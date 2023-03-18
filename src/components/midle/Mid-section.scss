@@ -28,8 +28,13 @@
 		display: flex;
 		align-items: center;
 		margin: 70px auto;
+			.img{
+				width: 30%;
+				max-height:500px;
+				object-fit: contain;
+				}
 			.section-text{
-				max-width: 60%;
+				max-width: 70%;
 				max-height: inherit;
 				font-size: 1.7em;
 				padding: 0 4em 0 1em;
@@ -42,10 +47,6 @@
 					overflow: hidden;
 				}
 			}
-			.img{
-			width: 40%;
-			max-height:500px;
-			object-fit: contain;
-			}
+			
 		}
 }

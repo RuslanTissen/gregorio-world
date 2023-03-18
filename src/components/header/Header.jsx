@@ -12,7 +12,7 @@ function Header() {
 			<ul className='ul-first'>
 				<AnchorLink href="#foto" className="logo" style={{fontSize:"1.5em"}}><AiOutlineHome /></AnchorLink>
 				<li className="alq"><AnchorLink href="#alq">PERSONAL</AnchorLink> </li>
-				<li className="detalles"><AnchorLink href="#detalles">DETALLES</AnchorLink></li>
+				<li className="detalles"><AnchorLink href="#detalles">REMEDIOS</AnchorLink></li>
 				<li className="contacto"><AnchorLink href="#contacto">CONTACTO</AnchorLink></li>
 				<li className='personal'><AnchorLink href="#personal">PERSONAL</AnchorLink></li>
 				<GiHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
