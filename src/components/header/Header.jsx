@@ -14,14 +14,14 @@ function Header() {
 				<li className="alq"><AnchorLink href="#alq">PERSONAL</AnchorLink> </li>
 				<li className="detalles"><AnchorLink href="#detalles">REMEDIOS</AnchorLink></li>
 				<li className="contacto"><AnchorLink href="#contacto">CONTACTO</AnchorLink></li>
-				<li className='personal'><AnchorLink href="#personal">PERSONAL</AnchorLink></li>
+				<li className='personal'><AnchorLink href="#personal">VACANTES</AnchorLink></li>
 				<GiHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
 			</ul >
 			{show && <ul className='ul-second'>
 				<li className="alq"><AnchorLink href="#alq">SERVICIO</AnchorLink> </li>
 				<li className="detalles"><AnchorLink href="#detalles">DETALLES</AnchorLink></li>
 				<li className="contacto"><AnchorLink href="#contacto">CONTACTO</AnchorLink></li>
-				<li className="personal"><AnchorLink href="#personal">PERSONAL</AnchorLink></li>
+				<li className="personal"><AnchorLink href="#personal">VACANTES</AnchorLink></li>
 			</ul>}
 		</div>
 	)

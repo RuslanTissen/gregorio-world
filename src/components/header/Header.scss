@@ -19,6 +19,7 @@
 				align-items: center;
 				color: white;
 				transition: all .2s;
+				font-weight: 300;
 					&:hover{
 						color: rgb(165, 163, 163);
 					}
@@ -30,6 +31,7 @@
 			display: flex;
 			align-items: center;
 			transition: all .2s;
+			font-weight: 300;
 				&:hover{
 					opacity: .5;
 			}
@@ -38,6 +40,12 @@
 			display: none;
 		}
 	@media (max-width:1200px) {
+		.logo{
+			display: flex;
+			svg:first-child{
+				display: inline-block;
+			}
+		}
 		.ul-first{
 			justify-content: space-between;
 			padding: 0 25px;
@@ -56,8 +64,8 @@
 		gap: 10px;
 	}
 	@media (min-width: 1200px) {
-			.ul-second{
-		display: none;
+		.ul-second{
+			display: none;
 		}
 	}
 }

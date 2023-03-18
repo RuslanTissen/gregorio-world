@@ -10,6 +10,7 @@ import personal from "./images/personal.png"
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 import { BsWhatsapp } from "react-icons/bs"
 
+
 function App() {
 	// const about = document.getElementsByClassName('')
 
@@ -33,14 +34,17 @@ function App() {
 			<div id={'contacto'}>
 				<MidSection
 					image={photo4}
-					text={"TEXT ...."}
-					a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491145579810"><BsWhatsapp style={{ margin: "5px 0", width: "2em", height: "2em", color: "rgb(0,168,132)" }} /> </a>} />
+					// text={"TEXT ...."}
+					a={<a className='btn' href='mailto:rthyssen73@gmail.com'>Contact me</a>}
+					// a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491166014163"><BsWhatsapp style={{ margin: "5px 0", width: "2em", height: "2em", color: "rgb(0,168,132)" }} /> </a>} 
+					/>
 			</div>
 			<div id={"personal"}>
 				<MidSection
 					image={personal}
 					title={"Personal."}
-					text={"TEXT......"} />
+					text={"TEXT......"}
+					/>
 			</div>
 
 			<Footer />

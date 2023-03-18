@@ -8,9 +8,10 @@ function MidSection(props) {
 		<div className="section">
 			<img className="img" src={image} alt="image" />
 			<div className="section-text">
+				<div className="email">{a}</div>
 				<div className="title">{title} </div>
 				<div className="text">{text}</div>
-				<a className="whatsapp">{a}</a>
+				{/* <a className="whatsapp">{a}</a> */}
 			</div>
 		</div>
 	)
