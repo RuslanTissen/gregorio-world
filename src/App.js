@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer';
 import photo2 from "./images/photo-2.png"
 import photo3 from "./images/photo-3.png"
 import photo4 from "./images/photo-4.png"
-import personal from "./images/cv-picture.png"
+import personal from "./images/personal.png"
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 import { BsWhatsapp } from "react-icons/bs"
 
