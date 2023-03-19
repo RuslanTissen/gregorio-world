@@ -66,7 +66,7 @@
 					margin: 0 0 20px;
 				}
 					.email{
-						transition: all 0.3s;
+						display: flex;
 						.btn{
 							color: white;
 							background-color: green;
@@ -75,9 +75,10 @@
 							text-transform: uppercase;
 							padding: 10px 20px;
 							border-radius: 5000px;
+							transition: all 0.3s;
 						}
 					}
-					.email:hover{
+					.btn:hover{
 						transform: scale(1.15);
 					}
 				.title{
