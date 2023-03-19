@@ -8,19 +8,40 @@
 				width: 100%;
 				max-height: 500px;
 				object-fit: cover;
+				// object-position: top;
 			}
 			.section-text{
-				padding: 15px;
-				height: fit-content;
-				font-weight: 300;
+				font-size: 2em;
+				.price{
+					padding: 30px 0;
+					text-align: center;
+				}
+				.email{
+					display: flex;
+					.btn{
+						color: white;
+						background-color: green;
+						font-size: 1rem;
+						font-weight: 500;
+						text-transform: uppercase;
+						padding: 10px 20px;
+						border-radius: 5000px;
+						margin: 0px auto 20px;
+						transition: all 0.3s;
+					}
+				}
+				.btn:hover{
+					transform: scale(1.15);
+				}
 				.text{
-					font-size: 250%;
+					font-size: 2rem;
 					width: 84vw;
 					object-fit: cover;
 					margin: 25px 0;
+					font-family: 'Montserrat', sans-serif;
+					font-weight: 300;
 				}
 			}
-			
 	}
 
 	@media (min-width: 1200px) {
@@ -51,11 +72,7 @@
 							text-transform: uppercase;
 							padding: 10px 20px;
 							border-radius: 5000px;
-							// transition: all 0.3s;
 						}
-						// .btn:hover{
-						// 	transform: scale(1.15);
-						// }
 					}
 					.email:hover{
 						transform: scale(1.15);

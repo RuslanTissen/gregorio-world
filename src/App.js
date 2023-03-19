@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer';
 import photo2 from "./images/photo-2.png"
 import photo3 from "./images/photo-3.png"
 import photo4 from "./images/photo-4.png"
-import personal from "./images/personal.png"
+import personal from "./images/cv-picture.png"
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 import { BsWhatsapp } from "react-icons/bs"
 
@@ -34,16 +34,16 @@ function App() {
 			<div id={'contacto'}>
 				<MidSection
 					image={photo4}
-					// text={"TEXT ...."}
-					a={<a className='btn' href='mailto:rthyssen73@gmail.com'>Contact me</a>}
+					price={"¿Quieres calcular el costo?"}
+					a={<a className='btn' href='mailto:rthyssen73@gmail.com'>Contáctame</a> }
 					// a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491166014163"><BsWhatsapp style={{ margin: "5px 0", width: "2em", height: "2em", color: "rgb(0,168,132)" }} /> </a>} 
 					/>
 			</div>
 			<div id={"personal"}>
 				<MidSection
 					image={personal}
-					title={"Personal."}
-					text={"TEXT......"}
+					price={"¿En busca de un trabajo?"}
+					a={<a className='btn' href='mailto:rthyssen73@gmail.com'>Contáctame</a> }
 					/>
 			</div>
 
