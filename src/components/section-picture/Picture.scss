@@ -11,16 +11,20 @@
 	.moto{
 		// background-color:rgb(84,84,84);
 		// background-color: #4c4c4c;
-		padding: 15px 0 30px;
+		padding: 0 20px;
 			h1{
-				max-width: 1200px;
-				margin: 1% 0 1% 30%;
-				padding: 20px 0 0 40px;
+				max-width: 800px;
+				margin: 20px auto;
+				padding: 20px 0;
 				text-align: left;
 				color: black;
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 700;
 				font-size: 2em;
+				mark{
+					background-color: white;
+					color: rgb(169,69,227);
+				}
 			}
 	}
 	@media (min-width:1200px) {
