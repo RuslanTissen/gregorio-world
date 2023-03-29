@@ -1,5 +1,9 @@
 .app{
-	height:100%;
+	.app-container{
+		width: 95vw;
+		max-width: 1700px;
+		height: fit-content;
+		margin: 0 auto;
 }
 
 // img{
@@ -13,3 +17,4 @@
 // 	opacity: 0;
 // }
 
+}

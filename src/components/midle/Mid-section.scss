@@ -1,6 +1,5 @@
 .section{
-	@media (max-width:1200px) {
-		width: 100vw;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -8,12 +7,17 @@
 				width: 100%;
 				max-height: 500px;
 				object-fit: cover;
-				// object-position: top;
+				display: block;
 			}
 			.section-text{
+				width: 100%;
 				font-size: 2em;
+				background-color: rgb(116,167,167);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
 				.price{
-					padding: 30px 0;
 					text-align: center;
 				}
 				.email{
@@ -37,56 +41,55 @@
 					font-size: 2rem;
 					width: 84vw;
 					object-fit: cover;
-					margin: 25px 0;
+					// margin: 25px 0;
 					font-family: 'Montserrat', sans-serif;
 					font-weight: 300;
 				}
 			}
-	}
 
-	@media (min-width: 1200px) {
-		max-width: 2000px;
-		max-height: 500px;
+	@media (min-width: 900px) {
+		height: 350px;
 		display: flex;
-		align-items: center;
-		margin: 70px auto;
-			.img{
-				width: 30%;
-				max-height:500px;
-				object-fit: contain;
-				}
+		flex-direction: row;
+		background-color: rgb(116,167,167);
+		margin: 50px 0;
+		.picture-container{
+			width: 40%;
+			height: 100%;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				display:block;
+			}
+		}
 			.section-text{
-				max-width: 70%;
-				max-height: inherit;
-				font-size: 1.7em;
-				padding: 0 4em 0 1em;
+				width: 60%;
+				height: 100%;
+				font-size: 1.3em;
+				padding: 40px;
+				display: flex;
+				flex-direction: column;
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 300;
-				.price{
-					margin: 0 0 20px;
-				}
-					.email{
-						display: flex;
-						.btn{
-							color: white;
-							background-color: rgb(75,129,244);
-							font-size: 1rem;
-							font-weight: 500;
-							text-transform: uppercase;
-							padding: 10px 20px;
-							border-radius: 5000px;
-							transition: all 0.3s;
-						}
-					}
-					.btn:hover{
-						transform: scale(1.15);
-					}
-				.title{
-					font-size: 150%;
-				}
+					// .email{
+					// 	display: flex;
+					// 	.btn{
+					// 		color: white;
+					// 		background-color: rgb(75,129,244);
+					// 		font-size: 1rem;
+					// 		font-weight: 500;
+					// 		text-transform: uppercase;
+					// 		padding: 10px 20px;
+					// 		border-radius: 5000px;
+					// 		transition: all 0.3s;
+					// 	}
+					// }
+					// .btn:hover{
+					// 	transform: scale(1.15);
+					// }
 				.text{
-					max-height: 250px;
-					overflow: hidden;
+					width: 100%;
 				}
 			}
 		}
