@@ -1,9 +1,10 @@
 .nav{
 	width: 100vw;
-	height: fit-content;
 	// background-color: rgb(84,84,84);
 	background-color: #2d2d2d;
 	position: fixed;
+	top: 0;
+  	right: 0;
 	z-index: 100;
 	ul{
 		display: flex;
@@ -40,7 +41,7 @@
 		svg:not(:first-child){
 			display: none;
 		}
-	@media (max-width:1200px) {
+	@media (max-width:900px) {
 		.logo{
 			display: flex;
 			svg:first-child{
