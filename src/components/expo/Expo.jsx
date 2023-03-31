@@ -15,7 +15,7 @@ function Expo() {
 					<p>Deje que el trabajo de nuestros empleados hable por sí mismo, deje sus comentarios para que podamos mejorar nuestro servicio.</p>
 				</div>
 				<div className="link-container">
-					<a href="#" className="btn">Dejar un comentario</a>
+					<a href='mailto:rthyssen73@gmail.com' className="btn">Dejar un comentario</a>
 				</div>
 			</div>
 
