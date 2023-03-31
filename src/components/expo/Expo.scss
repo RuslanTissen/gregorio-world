@@ -1,14 +1,49 @@
 .exercise{
-	max-height: 900px;
+	max-height:900px;
+	margin: 50px 0 0 0;
 	.exercise-text{
-
+		display: flex;
+		.text-container{
+			width: 50%;
+			h3{
+				font-family: 'Montserrat', sans-serif;
+			}
+			p{
+				margin-top: 10px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 300;
+			}
+		}
+		.link-container{
+			width: 50%;
+			display: flex;
+			flex-wrap: wrap-reverse;
+			justify-content: end;
+			.btn{
+				height: 33px;
+				color: black;
+				background-color: white;
+				border: 1px solid black;
+				font-size: .7em;
+				font-weight: bold;
+				font-family: 'Montserrat', sans-serif;
+				text-transform: uppercase;
+				padding: 10px 20px;
+				border-radius: 5000px;
+				transition: all 0.3s;
+			}
+			.btn:hover{
+				background-color: black;
+				color: white;
+			}
+		}
 	}
 	.exercise-button{
 
 	}
 	.exercise-images{
 		width: 100%;
-		height: 50%;
+		height: 40%;
 		.exercise-images-big{
 			margin: 10px 0 ;			
 			img{
@@ -63,6 +98,15 @@
 	.exercise{
 		width: 100%;
 		height: 1200px;
+		.exercise-text{
+			margin: 10px 0 ;
+			.text-container{
+				width: 60%;
+			}
+			.link-container{
+				width: 40%;
+			}
+		}
 		.exercise-images{
 			height: 100%;
 			height: 100%;

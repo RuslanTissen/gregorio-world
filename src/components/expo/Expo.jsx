@@ -10,8 +10,13 @@ function Expo() {
 	return (
 		<div className="exercise">
 			<div className="exercise-text">
-				<h4>recovery sport</h4>
-				<p>Rehabilitation sports serve both young and old to restore health. Be it back pain, shoulder problems, hip problems, post surgery, accident/injury, etc.</p>
+				<div className="text-container">
+					<h3>Obtener una gama completa de servicios </h3>
+					<p>Deje que el trabajo de nuestros empleados hable por sí mismo, deje sus comentarios para que podamos mejorar nuestro servicio.</p>
+				</div>
+				<div className="link-container">
+					<a href="#" className="btn">Dejar un comentario</a>
+				</div>
 			</div>
 
 			<div className="exercise-button">
