@@ -2,12 +2,28 @@
 	margin-top: 40px;
 	.picture-container{
 		max-height: 70vh;
+		position: relative;
 		img{
 			width: 100%;
 			max-height: inherit;
 			object-fit: cover;
 			object-position: bottom;
 			display: block;
+		}
+		.move-button{
+			position: absolute;
+			top: 85%;
+			left: 92%;
+			font-size: 3rem;
+			background-color: transparent;
+			border: 0 ;
+			a{
+				color: black;
+			}
+		}
+		a:hover{
+			color: rgb(50, 49, 49);
+			cursor:pointer;
 		}
 	}
 	.moto{

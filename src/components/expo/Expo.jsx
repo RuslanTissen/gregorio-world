@@ -8,7 +8,7 @@ import image5 from "../../images/image-5.png"
 
 function Expo() {
 	return (
-		<div className="exercise">
+		<div id="images" className="exercise">
 			<div className="exercise-text">
 				<div className="text-container">
 					<h3>Obtener una gama completa de servicios </h3>
