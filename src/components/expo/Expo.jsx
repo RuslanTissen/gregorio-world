@@ -19,10 +19,6 @@ function Expo() {
 				</div>
 			</div>
 
-			<div className="exercise-button">
-
-			</div>
-
 			<div className="exercise-images">
 				<div className="exercise-images-big">
 					<img src={image1} alt="image-1" />
