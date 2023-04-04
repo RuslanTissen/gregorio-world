@@ -1,9 +1,10 @@
 .nav {
   width: 100vw;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: rgb(84, 84, 84);
+  background-color: #2d2d2d;
   position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
 }
 .nav ul {
   display: flex;
@@ -12,32 +13,39 @@
   justify-content: space-around;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
-  font-weight: 500;
   color: white;
 }
 .nav ul li a {
+  display: flex;
+  height: 40px;
+  align-items: center;
   color: white;
   transition: all 0.2s;
+  font-weight: 300;
 }
 .nav ul li a:hover {
   color: rgb(165, 163, 163);
 }
-.nav .logo {
-  width: 1.5em;
-}
-.nav .logo img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+.nav svg {
+  color: white;
+  display: flex;
+  align-items: center;
   transition: all 0.2s;
+  font-weight: 300;
 }
-.nav .logo img:hover {
+.nav svg:hover {
   opacity: 0.5;
 }
-.nav svg {
+.nav svg:not(:first-child) {
   display: none;
 }
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
+  .nav .logo {
+    display: flex;
+  }
+  .nav .logo svg:first-child {
+    display: inline-block;
+  }
   .nav .ul-first {
     justify-content: space-between;
     padding: 0 25px;
@@ -45,7 +53,8 @@
   .nav .ul-first li:not(:first-child) {
     display: none;
   }
-  .nav svg {
+  .nav svg,
+  .nav svg:not(:first-child) {
     display: inline-block;
   }
 }

@@ -1,19 +1,54 @@
 .exercise {
   height: -moz-fit-content;
   height: fit-content;
+  margin: 50px 0;
+}
+.exercise .exercise-text .text-container h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.exercise .exercise-text .text-container p {
+  padding: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.exercise .exercise-text .link-container {
+  display: flex;
+  padding: 10px 0;
+}
+.exercise .exercise-text .link-container .btn {
+  height: 33px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 0.7em;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+}
+.exercise .exercise-text .link-container .btn:hover {
+  background-color: black;
+  color: white;
+}
+.exercise .exercise-images {
+  width: 100%;
+  height: 40%;
 }
 .exercise .exercise-images .exercise-images-big {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .exercise .exercise-images .exercise-images-big img {
   width: 100%;
-  height: 800px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 100%;
   display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .exercise .exercise-images .exercise-images-small {
-  height: 800px;
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 .exercise .exercise-images .exercise-images-small .box1 {
@@ -24,7 +59,7 @@
   height: 60%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 0 10px 10px 0;
+  padding: 0 5px 5px 0;
   display: block;
 }
 .exercise .exercise-images .exercise-images-small .box1 .image-3 {
@@ -32,18 +67,19 @@
   height: 40%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 10px 10px 0 0;
+  padding: 5px 5px 0 0;
   display: block;
 }
 .exercise .exercise-images .exercise-images-small .box2 {
   width: 50%;
+  position: relative;
 }
 .exercise .exercise-images .exercise-images-small .box2 .image-4 {
   width: 100%;
   height: 40%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 0 0 10px 10px;
+  padding: 0 0 5px 5px;
   display: block;
 }
 .exercise .exercise-images .exercise-images-small .box2 .image-5 {
@@ -51,28 +87,87 @@
   height: 60%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 10px 0 0 10px;
+  padding: 5px 0 0 5px;
   display: block;
 }
+.exercise .exercise-images .exercise-images-small .box2 a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  font-size: 150%;
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: all 0.3s;
+  z-index: 1;
+}
+.exercise .exercise-images .exercise-images-small .box2 a svg {
+  color: white;
+}
+.exercise .exercise-images .exercise-images-small .box2 a:hover {
+  background-color: white;
+}
+.exercise .exercise-images .exercise-images-small .box2 a:hover svg {
+  color: black;
+  padding: 1px;
+}
+
 @media (min-width: 900px) {
+  .exercise {
+    width: 100%;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .exercise .exercise-text {
+    display: flex;
+    margin: 10px 0;
+  }
+  .exercise .exercise-text .text-container {
+    width: 60%;
+  }
+  .exercise .exercise-text .link-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 40%;
+  }
   .exercise .exercise-images {
+    height: 700px;
     display: flex;
   }
   .exercise .exercise-images .exercise-images-big {
-    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    margin: 10px 10px 0px 0;
   }
   .exercise .exercise-images .exercise-images-big img {
     width: 100%;
-    padding: 0 20px 0 0;
+    height: 100%;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .exercise .exercise-images .exercise-images-small {
     width: 50%;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0;
   }
   .exercise .exercise-images .exercise-images-small .box1 {
     width: 50%;
   }
+  .exercise .exercise-images .exercise-images-small .box1 .image-2 {
+    padding: 0 10px 10px 10px;
+  }
+  .exercise .exercise-images .exercise-images-small .box1 .image-3 {
+    padding: 10px 10px 0 10px;
+  }
   .exercise .exercise-images .exercise-images-small .box2 {
     width: 50%;
   }
-}/*# sourceMappingURL=exercise.css.map */
+  .exercise .exercise-images .exercise-images-small .box2 .image-4 {
+    padding: 0 0 10px 10px;
+  }
+  .exercise .exercise-images .exercise-images-small .box2 .image-5 {
+    padding: 10px 0 0 10px;
+  }
+}/*# sourceMappingURL=Expo.css.map */

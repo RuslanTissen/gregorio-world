@@ -29,4 +29,22 @@
 }
 .footer .footer-links a:not(:last-child) {
   margin-right: 10px;
+}
+.footer .studio {
+  display: flex;
+  justify-content: center;
+}
+.footer .studio a {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 0.7em;
+}
+.footer .studio a img {
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-bottom: 10px;
 }/*# sourceMappingURL=Footer.css.map */

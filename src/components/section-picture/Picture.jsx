@@ -1,9 +1,8 @@
 import React from "react"
 import './Picture.scss'
 import home from "../../images/photo-1.png"
-import { BsFillArrowRightCircleFill } from "react-icons/bs"
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
-import { BsArrowDownCircleFill, BsArrowDownCircle } from "react-icons/bs"
+import { BsArrowDownCircleFill } from "react-icons/bs"
 
 export default function Pictuer() {
 	return (

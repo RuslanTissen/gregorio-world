@@ -1,42 +1,84 @@
-@media (max-width: 1200px) {
-  .section .section-text {
-    padding: 15px;
-    height: -moz-fit-content;
-    height: fit-content;
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+.section .img {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.section .section-text {
+  width: 100%;
+  font-size: 2em;
+  background-color: #3a4453;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section .section-text .price {
+  color: white;
+  text-align: center;
+}
+.section .section-text .email {
+  display: flex;
+}
+.section .section-text .email .btn {
+  color: #3a4453;
+  background-color: #f7d451;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  margin: 0px auto 20px;
+  transition: all 0.3s;
+}
+.section .section-text .btn:hover {
+  transform: scale(1.15);
+}
+.section .section-text .text {
+  font-size: 2rem;
+  width: 84vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+@media (min-width: 900px) {
+  .section {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
   }
-  .section .img {
+  .section .picture-container {
+    width: 40%;
+    height: 100%;
+  }
+  .section .picture-container img {
     width: 100%;
-    max-height: 300px;
+    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    padding: 15px 50px;
-  }
-}
-@media (min-width: 1200px) {
-  .section {
-    max-width: 1500px;
-    max-height: 300px;
-    display: flex;
-    align-items: center;
-    margin: 70px auto;
+    display: block;
   }
   .section .section-text {
-    max-width: 60%;
-    max-height: inherit;
-    font-size: 1.5em;
-    padding: 0 1em;
-  }
-  .section .section-text .title {
-    font-size: 150%;
+    width: 60%;
+    height: 100%;
+    font-size: 2em;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
   }
   .section .section-text .text {
-    max-height: 250px;
-    overflow: hidden;
-  }
-  .section .img {
-    width: 40%;
-    max-height: 300px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    width: 100%;
   }
 }/*# sourceMappingURL=Mid-section.css.map */

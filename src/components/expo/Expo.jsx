@@ -5,6 +5,8 @@ import image2 from "../../images/image-2.png"
 import image3 from "../../images/image-3.png"
 import image4 from "../../images/image-4.png"
 import image5 from "../../images/image-5.png"
+import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
+import {BsArrowDownCircleFill} from "react-icons/bs"
 
 function Expo() {
 	return (
@@ -31,6 +33,7 @@ function Expo() {
 					<div className="box2">
 						<img src={image4} alt="" className="image-4" />
 						<img src={image5} alt="" className="image-5" />
+						<AnchorLink href="#contacto"><BsArrowDownCircleFill /></AnchorLink>
 					</div>
 				</div>
 			</div>
