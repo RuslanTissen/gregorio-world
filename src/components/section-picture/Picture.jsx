@@ -17,7 +17,7 @@ export default function Pictuer() {
 					<h1>Bienvenido al mundo de la  <mark>pureza</mark> </h1>
 				</div>
 				<div className="button-container">
-					<AnchorLink href="#images"><BsArrowDownCircleFill /></AnchorLink>
+					<AnchorLink href="#quality"><BsArrowDownCircleFill /></AnchorLink>
 				</div>
 
 			</div>

@@ -1,1 +1,89 @@
-/*# sourceMappingURL=Quality.css.map */
+.quality {
+  flex-wrap: wrap;
+  margin: 50px 0;
+  font-family: Montserrat;
+}
+.quality .quality-left {
+  display: flex;
+  margin-bottom: 20px;
+}
+.quality .quality-left .quality-box {
+  text-align: center;
+  padding: 40px;
+}
+.quality .quality-left .quality-box svg {
+  font-size: 3rem;
+}
+.quality .quality-left .quality-box h1 {
+  margin: 5px 0;
+}
+.quality .quality-left .quality-guarantee {
+  width: 50%;
+  background-color: rgb(255, 221, 0);
+  margin-right: 20px;
+}
+.quality .quality-left .quality-top {
+  width: 50%;
+  background-color: rgb(207, 171, 145);
+}
+.quality .quality-right {
+  display: flex;
+}
+.quality .quality-right .quality-box {
+  text-align: center;
+  padding: 40px;
+}
+.quality .quality-right .quality-box svg {
+  font-size: 3rem;
+}
+.quality .quality-right .quality-box h1 {
+  margin: 5px 0;
+}
+.quality .quality-right .quality-price {
+  width: 50%;
+  background-color: rgb(0, 119, 200);
+  color: white;
+  margin-right: 20px;
+}
+.quality .quality-right .quality-payment {
+  width: 50%;
+  background-color: rgb(0, 133, 62);
+  color: white;
+  position: relative;
+}
+.quality .quality-right .quality-payment a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: all 0.3s;
+  z-index: 1;
+}
+.quality .quality-right .quality-payment a svg {
+  color: white;
+  font-size: 150%;
+}
+.quality .quality-right .quality-payment a:hover {
+  background-color: white;
+}
+.quality .quality-right .quality-payment a:hover svg {
+  color: black;
+  padding: 1px;
+}
+@media (min-width: 900px) {
+  .quality {
+    display: flex;
+  }
+  .quality .quality-left {
+    max-width: 50%;
+    margin-bottom: 0;
+    padding-right: 10px;
+  }
+  .quality .quality-right {
+    max-width: 50%;
+    padding-left: 10px;
+  }
+}/*# sourceMappingURL=Quality.css.map */

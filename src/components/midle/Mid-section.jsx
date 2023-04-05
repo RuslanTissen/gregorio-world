@@ -6,16 +6,24 @@ function MidSection(props) {
 
 	return (
 		<div className="section">
-			<div className="picture-container">
-				<img className="img" src={image} alt="image" />
+			<div className="title">{title} </div>
+			<div className="text">{text}</div>
+
+
+			<div className="picture-text-container">
+				<div className="picture-container">
+					<img className="img" src={image} alt="image" />
+				</div>
+
+				<div className="section-text">
+					<div className="price">{price}</div>
+					<div className="email">{a}</div>
+
+					{/* <a className="whatsapp">{a}</a> */}
+				</div>
 			</div>
-			<div className="section-text">
-				<div className="price">{price}</div>
-				<div className="email">{a}</div>
-				<div className="title">{title} </div>
-				<div className="text">{text}</div>
-				{/* <a className="whatsapp">{a}</a> */}
-			</div>
+
+
 		</div>
 	)
 }

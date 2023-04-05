@@ -2,10 +2,17 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 50px 0;
+  font-family: "Montserrat", sans-serif;
 }
-.section .img {
+.section .title {
+  padding: 20px 0 20px 0;
+}
+.section .text {
+  padding: 0 0 20px 0;
+  font-weight: 300;
+}
+.section .picture-container .img {
   width: 100%;
   max-height: 500px;
   -o-object-fit: cover;
@@ -52,23 +59,28 @@
 }
 @media (min-width: 900px) {
   .section {
-    height: 350px;
+    height: 500px;
+  }
+  .section .title {
+    width: 100%;
+  }
+  .section .picture-text-container {
+    height: 100%;
     display: flex;
     flex-direction: row;
-    margin: 50px 0;
   }
-  .section .picture-container {
+  .section .picture-text-container .picture-container {
     width: 40%;
     height: 100%;
   }
-  .section .picture-container img {
+  .section .picture-text-container .picture-container img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     display: block;
   }
-  .section .section-text {
+  .section .picture-text-container .section-text {
     width: 60%;
     height: 100%;
     font-size: 2em;
@@ -77,8 +89,7 @@
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-  }
-  .section .section-text .text {
-    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }/*# sourceMappingURL=Mid-section.css.map */
