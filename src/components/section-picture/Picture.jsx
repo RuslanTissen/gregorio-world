@@ -1,6 +1,6 @@
 import React from "react"
 import './Picture.scss'
-import home from "../../images/photo-1.png"
+import home from "../../images/photo-1.jpg"
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
 import { BsArrowDownCircleFill } from "react-icons/bs"
 

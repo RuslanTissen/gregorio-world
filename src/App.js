@@ -5,12 +5,10 @@ import Pictuer from './components/section-picture/Picture';
 import Expo from './components/expo/Expo';
 import Quality from './components/quality/Quality.js';
 import Footer from './components/footer/Footer';
-import photo3 from "./images/photo-3.png"
-import personal from "./images/personal.png"
-import { RiH1 } from 'react-icons/ri';
+import photo3 from "./images/photo-3.jpg"
+import personal from "./images/personal.jpg"
 
 function App() {
-	// const about = document.getElementsByClassName('')
 
 	return (
 		<div className="app">
@@ -29,7 +27,6 @@ function App() {
 						image={photo3}
 						price={<div style={{ margin: "30px" }}>¿Quieres calcular el costo?</div>}
 						a={<a className='btn' href='mailto:rthyssen73@gmail.com'>Contáctame</a>}
-					// a={<a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/5491166014163"><BsWhatsapp style={{ margin: "5px 0", width: "2em", height: "2em", color: "rgb(0,168,132)" }} /> </a>} 
 					/>
 				</div>
 
