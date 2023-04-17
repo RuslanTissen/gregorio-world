@@ -19,7 +19,7 @@ export default function Footer() {
 				<a href="#"><FaTelegram /></a>
 			</div>
 			<div className="studio">
-				<a href="#">Created by <img src={tissen} alt="tissen" />  studio </a>
+				<a href="https://tissenstudio.com/">Created by <img src={tissen} alt="tissen" />  studio </a>
 				{/* <h5>Created by </h5> */}
 			</div>
 		</div>
